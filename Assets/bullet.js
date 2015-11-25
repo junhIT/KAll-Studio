@@ -9,6 +9,11 @@ function Start () {
     gameObject.GetComponent(Rigidbody).AddForce(transform.up * bulletSpeed) ;
 }
 
+function OnTriggerEnter (enterCollider : Collider) {
+ 
+    if (enterCollider.gameObject.name == "bulletEraser") Destroy (gameObject) ;
+ 
+}
 
 function Update () {
 

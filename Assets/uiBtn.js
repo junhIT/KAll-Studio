@@ -15,7 +15,22 @@ function Btnexit () {
     Application.Quit();
 }
 
-function Btnstartgame () {
+function BtnKevin () {
  
-    Application.LoadLevel("ingame") ;
+    Application.LoadLevel("Kevin") ;
+}
+
+function Btnback () {
+ 
+    Application.LoadLevel("main") ;
+}
+
+function BtnBob () {
+ 
+    Application.LoadLevel("Bob") ;
+}
+
+function BtnStuart () {
+ 
+    Application.LoadLevel("Stuart") ;
 }
